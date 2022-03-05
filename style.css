@@ -1,0 +1,48 @@
+header{
+  background-color: aqua;
+  text-align: center;
+}
+a {/*It applies these values to the anchor element wherever it appears*/
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  background-color: lightcyan;
+  text-decoration: none;
+}
+a:hover {
+  background-color: #151;
+}/*The nav content turns green when the mouse hovers*/
+.active {
+  background-color: #04AA6D;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+div{
+  background-color: greenyellow;/*All divs are assigned this colour*/
+}
+#Introduction{
+  text-align: center;
+}
+#About-me{
+  text-align: center;
+}
+#container{
+    background-color: #003049;
+    width: 90%;
+    height: 200px; 
+    margin: 0 auto;
+    border: 5px solid #003049;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#Contact{
+  text-align: center;
+}
+#adjustl{
+  text-align: left;
+}
